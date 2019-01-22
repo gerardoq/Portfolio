@@ -1,0 +1,64 @@
+
+body, h1, h3, h5{
+	margin: 0px;
+	font-family: Avenir, Helvetica, Arial, "sans-serif";
+}
+
+#headline{
+	text-align: center;
+	margin-top: 40px;
+}
+
+#name{
+	font-weight: 400;
+	font-size: 60px;
+}
+
+#subheader{
+	color: rgba(74,74,74,1.00);
+	font-weight: 400;
+	font-size: 35px;
+}
+
+#headerDescription{
+	font-weight: 400;
+	font-size: 20px;
+	margin: 20px 0px;
+	color: rgba(74,74,74,1.00);
+}
+
+#projectViewer{
+	border: 1px solid black;
+	height: calc(100vw / 2);
+	display: flex;
+}
+
+#projectViewer > div{
+	height: 100%;
+    width: 50%;
+}
+
+#projectDisplay{
+    overflow: hidden;
+}
+
+#projectDescription{
+	display: flex;
+	flex-direction: column;
+}
+
+.linkHeader{
+	font-size: 2em;
+	padding: 20px 40px;
+}
+
+.shortDescription{
+	font-size: 1.7em;
+	padding: 0px 40px;
+}
+
+#projectsContainer{
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+}
